@@ -1,0 +1,36 @@
+.data-row1 {
+  display: grid;
+	place-items: center
+}
+
+.txt1 {
+  min-width: 200px;
+  margin: 20px;
+  font-size: 20px;
+  border: 1px solid #808080;
+  background-color: rgb(184, 184, 184);
+  color:rgb(66, 66, 66);
+  border-radius: 5px;
+}
+
+.txt2 {
+  min-width: 110px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: -22px;
+  border: 1px solid rgba(207, 2, 2, 0.377);
+  z-index: -1;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(95, 0, 0);
+
+}
+
+.n2 {
+  padding: 0px;
+  margin-top: -10px;
+}
+
+.form {
+  padding: 20px;
+}

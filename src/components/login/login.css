@@ -1,0 +1,55 @@
+.login h1 {
+    text-align: center;
+}
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.top-img {
+    width: 140px;
+    margin-bottom: 3px;
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.btn {
+    display: grid;
+	place-items: center;
+    margin-right: 10px;
+}
+
+.txt {
+    position: fixed;
+  left: 49.5%;
+  bottom: 5px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+  min-width: 100%;
+}
+
+.text {
+    margin-bottom: -3px;
+    margin: 0 auto;
+}
+
+.bottom-img {
+    width: 200px;
+    height: 100%;
+    margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 580px) {
+    .txt {
+        bottom: -7px;
+    }
+}
