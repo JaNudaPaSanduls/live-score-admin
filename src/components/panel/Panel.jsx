@@ -100,6 +100,7 @@ export default class Panel extends React.Component {
           playing: this.state.team2
         });
       }
+      window.location.reload();
     })
     .catch((err) => {
       console.log(err);
@@ -185,6 +186,7 @@ export default class Panel extends React.Component {
           player: this.state.player2
         });
       }
+      window.location.reload();
     })
     .catch((err) => {
       console.log(err);
